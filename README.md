@@ -1,5 +1,5 @@
 # Wspanialy ogrod 2
-Project to pass the course "Web application programming". Zastosowanie PHP, Laravel, server Apache, MySQL, CRUD, MVC.
+Project to pass the course "Web application programming". Application of PHP, Laravel, Apache server, MySQL, CRUD, MVC.
 
 
 ## General Information
