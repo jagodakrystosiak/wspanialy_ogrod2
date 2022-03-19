@@ -1,0 +1,58 @@
+
+/* ustawienia dla tabeli, która ma jedynie ustawić mi elementy formularza */
+#tabela_ustawiająca {
+    margin: 0; /* wyzerowanie marginesu */
+    width: 30%; /* zmniejszenie szerokości */
+    border: 0; /* wyzerowanie wcięć */
+    background: #f0f0f0; /* kolor ustawiony na ten sam co tło */
+    text-align: left; /* pozycjonowani tekstu do lewej */
+}
+
+/* ustawienia dla ciała tabeli ustawiającej */
+#tabela_ustawiająca tbody {
+    background: #f0f0f0; /* kolor ustawiony na ten sam co tło */
+}
+
+/* ustawienia dla wiersza tabeli ustawiającej */
+#tabela_ustawiająca td {
+    border: 0; /* wyzerownie obranowania */
+}
+
+*.form_info {
+    font-size: 80%;
+    color: #666666;
+}
+
+input {
+    border: 2px solid #98bb00;
+    font-family: Bahnschrift;
+}
+*.cena {
+    text-align: center;
+    border: 0;
+    color: black;
+    background: white;
+    font-size: 100%;
+}
+
+button {
+  background: #98bb00; /* Green */
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+button:hover {
+    background: #666666;
+}
+
+fieldset {
+    margin: 1%;
+}
+
+*.alert {
+    color: red;
+}
+

@@ -1,0 +1,120 @@
+
+/* Laboratorium 3 */
+/* Pozycjonowanie elementów na stronie */
+
+/* ustawienia elementu klasy box */
+*.box {
+    float: left; /* ustawienie pozycjonowanie bloku do lewej */
+    margin-left: 2%; /* ustawienie marginesu */
+    width: 30.5%; /* ustawienie szerokości */
+    height: 415px; /* ustawienie wysokości */
+    font-size: 90%; /* usawienie wielkości czcionki */
+    background: white; /* ustawienie koloru tła */
+    border-radius: 4px; /* zaokrąglenie brzegów boxa */
+}
+
+/* ustawienia tekstu znajdującego się w boxie */
+*.box *.tekst {
+    padding-left: 20px; /* wcięcie z lewej */
+    padding-right: 20px; /* wcięcie z prawej */
+    padding-bottom: 10px; /* wcięcie u dołu */
+    padding-top: 10px; /* wcięcie na górze */
+}
+*.box button, *.box2 button {
+    border: 0;
+    background: white;
+    font-family: Bahnschrift;
+    padding: 0;
+    color: #696f00;
+    font-size: 100%;
+}
+
+/* ustawienia elementu klasy box po najechaniu na niego */
+*.box:hover {
+    background: #f5f5f5; /* ustawienie koloru tła */
+}
+*.box:hover button, *.box2:hover button {
+    background: #f5f5f5;
+}
+*.box h3 button, *.box2 h3 button {
+    font-weight: bold;
+}
+
+/* ustawienia dotyczące obrazka w elemencie o klasie box */
+*.box img {
+    width: 100%; /* ustawienie szerokości */
+    border-top-right-radius: 4px; /* zaokrąglenie górny prawy róg */
+    border-top-left-radius: 4px; /* zaokrąglenie górny lewy róg */
+}
+
+/* ustawienia elementów klasy box2 */
+*.box2 {
+    float: left; /* ustawienie pozycjonowanie bloku do lewej */
+    margin-left: 2%; /* ustawienie lewego marginesu */
+    margin-top: 2%; /* ustawienie górnego marginesu */
+    width: 19.6%; /* ustawienie szerokości */
+    height: 310px; /* ustawienie wysokości */
+    font-size: 75%; /* usawienie wielkości czcionki */
+    background: white; /* ustawienie koloru tła */
+    border-radius: 4px; /* zaokrąglenie brzegów boxa */
+}
+
+/* ustawienia tekstu znajdującego się w boxie 2 */
+*.box2 *.tekst {
+    padding-left: 20px; /* wcięcie z lewej */
+    padding-right: 20px; /* wcięcie z prawej */
+    padding-bottom: 10px; /* wcięcie u dołu */
+    padding-top: 10px; /* wcięcie na górze */
+}
+
+/* ustawienia elementów klasy box2 po najchaniu na nie */
+*.box2:hover {
+    background: #f5f5f5; /* ustawienie koloru tła */
+}
+
+/* ustawienia dotyczące obrazka w elemencie o klasie box2 */
+*.box2 img {
+    width: 100%; /* ustawienie szerokości */
+    border-top-right-radius: 4px; /* zaokrąglenie górnego prawego rogu */
+    border-top-left-radius: 4px; /* zaokrąglenie lewego górnego rogu */
+}
+
+/* ustawienie elementu o id="pasek" pasek boczny */
+#pasek {
+    float: right; /* wyrównanie elementu do prawej */
+    width: 30.5%; /* ustawienie szerokości elementu */
+    text-align: left; /* wyrównanie tekstu do lewej */
+    margin-right: 2.5%; /* margines z prawej */
+    margin-top: 1%; /* margines z góry */
+}
+
+/* ustawienia nagłówka w elemencie pasek */
+#pasek h3 {
+    color: #666666; /* ustawienie koloru tekstu */
+    margin-top: 2%; /* ustawienie marginesu górnego */
+}
+
+/* ustawienia listy w elemencie pasek */
+#pasek ul li {
+    list-style: none; /* usunięcie oznaczenia listy wypunkotowanej - kropki */
+}
+
+/* ustawienia hiperłącza w liście elementu pasek */
+#pasek ul li a {
+    color: black; /* kolor tekstu */
+}
+
+footer {
+    clear: both; /* usuwa ustawione wcześniej pozycjonowanie */
+}
+
+*.box-comment {
+    padding-top:2%;
+}
+*.box-comment textarea {
+    width: 50%;
+    height: 100px;
+    border: 2pt solid #939393;
+    font-family: Bahnschrift;
+    font-size: 100%;
+}

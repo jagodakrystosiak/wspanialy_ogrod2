@@ -1,0 +1,129 @@
+
+/* Laboratorium 2 */
+/* Tworzenie wyglądu strony */
+
+/* ustawienia dla całego dokumentu */
+body { 
+    background: #f0f0f0; /* ustawienie koloru tła */
+    color: black; /* ustawienie koloru tekstu */
+    font-family: Bahnschrift; /* ustawienie czcionki dla całej strony */
+    margin: 0; /* wyzerowanie marginesu */
+} 
+
+/* ustawienia dla 3 nagłówków */
+h1, h2, h3 { 
+    margin: 0; /* wyzerowanie marginesu */
+    padding: 0; /* wyzerowanie wypełnień */
+} 
+
+/* ustawienia reszty nagłówków i hiperłączy */
+h2,h3,a {
+    color: #696f00; /* ustawienie koloru tekstu */
+    text-align:left; /* ustawienie pozycji tekstu do lewej */
+    text-decoration: none; /* usunięcie podkreślenia na hiperłączach */
+}
+
+/* ustawienia nagłówka h1 */
+h1 {
+    background: #f0f0f0; /* ustawienie koloru tła */
+    border-bottom: 3px solid #939393; /* ustawienie obramowania tylko na dole */
+    color: #696f00; /* ustawienie koloru tekstu */
+    font-size: 150%; /* ustawienie wielkości czcionki */
+    margin-bottom: 2%; /* ustawienie marginesu na dole */
+}
+
+/* ustawienia nagłówka h2 */
+h2 {
+    text-align: center; /* wysierodkowanie tekstu */
+    border-bottom: 3px solid #939393; /* obramowanie u dołu */
+}
+
+/* ustawienia części o id="menu" */
+#menu { 
+    background: white;  /* ustawienie koloru tła */
+    border-bottom: 3px solid #696f00; /* ustawienie obramowania tylko na dole */
+} 
+
+/* ustawienia części treści */
+section { 
+    background: #f0f0f0;  /* ustawienie koloru tła */
+    margin: 3%; /* ustawienie marginesu */
+    margin-top: 175px; /* ustawienie marginesu u góry */
+} 
+
+/* ustawienia zdjęcia w artykule */
+#artykul img {
+    margin-top: 1%; /* ustawienie marginesu górnego */
+    margin-right: 1%; /* ustawienie marginesu prawego */
+    margin-bottom: 1%; /* ustawineie marginesu dolnego */
+    float: left; /* pozycjonowanie do lewej */
+    width: 40%; /* szerokość obrazu */
+}
+#more {
+    margin-left: 10%;
+}
+
+/* ustawienia części nagłówkowej */
+header {
+    position:fixed; /* ustawienie pozycji - pozycja niezależna od paska przesuwania strony */
+    top: 0; /* wyzerowanie odstępu */
+    background: white; /* ustawienie koloru tła */
+    width: 100%; /* ustawienie szerokości */
+    margin:0; /* usunięcie marginesu */
+    padding: 0; /* usunięcie wcięcia */
+    box-shadow: 0 0 3em #b0b0b0; /* ustawienie cienia elementu nagłówek */
+}
+
+/* ustawienia stopki */
+footer {
+    text-align: center; /* ustawnienie pozycji tekstu */
+    color: #696f00; /* ustawienie koloru tekstu */
+}
+
+/* ustawienia obrazka znajdującego się w stopce */
+footer img {
+    width: 100%; /* ustawienie szerokości */
+    border-bottom: 3px solid #696f00; /* ustawienie obramowania na dole elementu */
+}
+
+/* ustawienia banera */
+#baner {
+    text-align: center; /* wysierodkowanie elementu */
+    margin-top: 1%; /* margines u góry */
+}
+
+/* ustawienie zdjęcia logo w banerze */
+#baner img {
+    width: 300px; /* ustawienie szerokości */
+    height: 60px; /* ustawienie wysokości */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* dotyczy katalogów */
+/* ustawienia elementu zdjecia */
+#zdjecia {
+    margin-left: 3%; /* ustawienie marginesu */
+}
+
+/* ustawienia do znacznika img w elemencie zdjecia */
+#zdjecia img {
+    float: left; /* pozycjonowanie elementów do lewej */
+    width: 23%; /* szerokość elementów */
+    padding: 0.5%; /* ustawienie wcięcia */
+}
+
+#pasek button {
+    padding: 0;
+    text-align: left;
+    color: black;
+    background: #f0f0f0;
+    border: 0;
+    font-family: Bahnschrift;
+}
+#pasek button:hover {
+    color: #696f00;
+}

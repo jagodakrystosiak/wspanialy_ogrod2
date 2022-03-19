@@ -1,0 +1,116 @@
+
+/* Laboratorium 3 */
+/* Budowa nawigacji */
+
+/* Nawigacja */ 
+#nav { 
+    text-align: left; /* ustawienie pozycji tekstu */
+    overflow: hidden; /* ustawienie wartości przepełnienia */
+    margin-bottom: 0; /* wyzerowanie dolnego marginesu */
+    margin-top: 0;
+} 
+
+/* lista w nawigacji */
+#nav li { 
+    list-style-type: none;  /* usunięcie stylu listy */
+    float: left; /* wyrównanie do lewej */
+    background: white; /* ustawienie koloru tła */
+} 
+
+/* lista w nawigacji po najechaniu na nią */
+#nav li:hover { 
+    list-style-type: none; /* usunięcie stylu listy */
+    float: left; /* wyrównanie do lewej */
+    background: #696f00; /* ustawienie koloru tła */
+} 
+
+#nav li li {
+    background: #696f00;
+}
+
+/* hiperłącze w nawigacji po najechaniu na liste nawigacji */
+#nav li:hover a {
+    color: white; /* kolor tekstu */
+}
+
+/* hiperłącze znajdujące się w liście nawigacji */
+#nav li a { 
+    display : block; /* ustawienie stylu wyświetlania */
+    padding : 4pt; /* ustawienie wypełnienia */
+    text-decoration : none; /* usunięcie podkreślenia na hiperłączach */
+    padding-left: 30px; /* ustawienie lewego wypełnienia */
+    padding-right: 30px; /* ustawienie prawego wypełnienia */
+    padding-top: 10px; /* ustawienie górnego wypełnienia */
+} 
+
+/* hiperłącze znajdujące się w liście nawigacji po najechaniu na niego */
+#nav li a:hover {
+    background: #696f00; /* ustawienie koloru tła */
+    color: white; /* kolor tekstu */
+}
+
+/* hiperłącze znajdujące się w liście zagnieżdzonej w liście ul zagnieżdzonej w liście nawigacji - jest to 3 poziom */
+#nav li li a { 
+    width: 210px; /* ustawienie szerokości */
+    height: 24px; /* ustawienie wysokości */
+    background: #696f00; /* ustawienie koloru tła */
+    color: white; /* kolor tekstu */
+    padding-top: 10px; /* ustawienie górnego wcięcia */
+} 
+
+/* to samo co wyżej tylko hiperłącze po najechaniu na niego */
+#nav li li a:hover {
+    background: #787f00; /* ustawienie koloru tła */
+}
+
+/* lista zagnieżdzona w liście ul zagnieżdzonej w liście nawigacji - 3 poziom po najechaniu na nią */
+#nav li li:hover { 
+    background: #d5d5d5; /* ustawienie koloru tła */
+} 
+
+/* lista zagnieżdzona w liście nawigacji (lista ul zawierająca kolejne elementy li) */
+#nav li ul { 
+    overflow: hidden; /* ustawienie wartości przepełnienia */
+    display: none; /* ustawienie stylu wyświetlania */
+} 
+
+/* lista zagnieżdzona w liście nawigacji po najechaniu na nia */
+#nav li:hover ul { 
+    position: absolute; /* ustawienie pozycji */
+    padding: 4px; /* ustawienie wypełnienia */
+    display: block; /* ustawienie stylu wyświetlania */
+    width: 250px; /* ustawienie szerokości */
+    background: #696f00; /* ustawienie koloru tła */
+}
+
+#nav li li button {
+    border: 3px solid #696f00;
+    width: 250px; /* ustawienie szerokości */
+    height: 45px; /* ustawienie wysokości */
+    background: #696f00; /* ustawienie koloru tła */
+    color: white; /* kolor tekstu */
+    padding: 10px;
+    font-family: Bahnschrift;
+    font-size: 100%;
+    text-align: left;
+    margin: 0;
+    display: block;
+    text-decoration : none;
+    
+}
+#nav li li button:hover {
+    background: #787f00; /* ustawienie koloru tła */
+}
+
+#user li{
+    float: right;
+    margin-right: 2%;
+}
+
+#user li a{
+    color: #939393;
+}
+
+#user li:hover{
+    float: right;
+}
