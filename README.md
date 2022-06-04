@@ -1,5 +1,5 @@
 # Wspanialy ogrod 2
-Project to pass the course "Web application programming". Application of PHP, Laravel, Apache server, MySQL, CRUD, MVC.
+Project to pass the subject "Web application programming". Application of PHP, Laravel, Apache server, MySQL, CRUD, MVC.
 
 
 ## General Information
